@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    height: 50px;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav{
+    display: flex;
+  }
+  
+  header nav a{
+    margin-left: 20px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #ff9800;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  footer nav ul li {
+    margin-left: 20px;
+  }
+  
+  footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer nav ul li a:hover {
+    color: #ff9800;
+  }
+  
